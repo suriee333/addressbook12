@@ -197,6 +197,11 @@
 						<exclude>**/*Abstract*Test.java</exclude>
 					</excludes>
 				</configuration>
+				<configuration>
+                			<forkCount>1</forkCount>
+                			<reuseForks>true</reuseForks>
+                			<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
+            			</configuration>
 			</plugin>
 
         </plugins>
